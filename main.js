@@ -13,7 +13,6 @@ formEl.addEventListener('submit', function (e) {
     let price
     let finalPrice
     price = kms * 0.21;
-    finalPrice = price.toFixed(2);
     if (age.value = 'under 18') {
         price = price - (price / 100 * 20)
     } else if (age.value = 'over 65') {
@@ -21,6 +20,7 @@ formEl.addEventListener('submit', function (e) {
     } else {
         price = kms * 0.21
     }
+    finalPrice = price.toFixed(2);
 
     const carrozza = Math.floor(Math.random() * 10) + 1;
     const seat = Math.floor(Math.random() * 25) + 1;
