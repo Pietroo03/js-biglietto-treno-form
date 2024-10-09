@@ -4,8 +4,10 @@ const formEl = document.querySelector('form')
 formEl.addEventListener('submit', function (e) {
     e.preventDefault()
 
+    const nameSurname = e.target.nameSurname.value
     const kms = e.target.kms.value
-    console.log(kms);
+    const age = e.target.age.value
+    console.log(nameSurname, kms, age);
 })
 
 
