@@ -9,13 +9,13 @@ formEl.addEventListener('submit', function (e) {
     const kms = e.target.kms.value
     const age = e.target.age.value
     console.log(nameSurname, kms, age);
-
+    
     let price
     let finalPrice
     price = kms * 0.21;
-    if (age.value = 'under 18') {
+    if (age === 'under 18') {
         price = price - (price / 100 * 20)
-    } else if (age.value = 'over 65') {
+    } else if (age === 'over 65') {
         price = price - (price / 100 * 40)
     } else {
         price = kms * 0.21
