@@ -11,7 +11,7 @@ formEl.addEventListener('submit', function (e) {
     console.log(nameSurname, kms, age);
 
     let price
-
+    let finalPrice
     price = kms * 0.21;
     finalPrice = price.toFixed(2);
     if (age.value = 'under 18') {
