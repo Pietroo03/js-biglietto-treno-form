@@ -39,7 +39,7 @@ formEl.addEventListener('submit', function (e) {
             <div class="col-2 py-2"> ${carrozza} </div>
             <div class="col-2 py-2"> ${seat} </div>
             <div class="col-2 py-2"> ${codeTicket} </div>
-            <div class="col-2 py-2"> ${finalPrice} </div>
+            <div class="col-2 py-2"> ${finalPrice} € </div>
         </div>
     `
 
